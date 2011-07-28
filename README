@@ -1,0 +1,23 @@
+yoinked from here
+
+http://sanescreen.org/converter/
+
+modified bitcoin_rate.js to use CAD instead of USD.
+
+have not chenaged bitcoin_converter.js to represent CAD instead of USD
+
+
+
+USAGE:
+edit cadjsonparse.py to create bitcoin_rate.js under accessable web dir
+
+add a cron job for
+python cadjsonparse.py
+
+
+place bitcoin_converter.js in accessable webdir
+
+call bitcoin_converter.js from html
+
+<script type="text/javascript" src="http://meme.hackspace.ca/bitcoin_converter.js"></script>
+Membership costs <span class="usd_to_btc">50</span> BTC per month
